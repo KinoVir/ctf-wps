@@ -1,0 +1,71 @@
+import string
+
+restrictions = [
+ 'uudcjkllpuqngqwbujnbhobowpx_kdkp_',
+ 'f_negcqevyxmauuhthijbwhpjbvalnhnm',
+ 'dsafqqwxaqtstghrfbxzp_x_xo_kzqxck',
+ 'mdmqs_tfxbwisprcjutkrsogarmijtcls',
+ 'kvpsbdddqcyuzrgdomvnmlaymnlbegnur',
+ 'oykgmfa_cmroybxsgwktlzfitgagwxawu',
+ 'ewxbxogihhmknjcpbymdxqljvsspnvzfv',
+ 'izjwevjzooutelioqrbggatwkqfcuzwin',
+ 'xtbifb_vzsilvyjmyqsxdkrrqwyyiu_vb',
+ 'watartiplxa_ktzn_ouwzndcrfutffyzd',
+ 'rqzhdgfhdnbpmomakleqfpmxetpwpobgj',
+ 'qggdzxprwisr_vkkipgftuvhsizlc_pbz',
+ 'jerzhlnsegcaqzathfpuufwunakdtceqw',
+ 'lbvlyyrugffgrwo_v_zrqvqszchqrrljq',
+ 'aiwuuhzbszvfpidwwkl_wynlujbsbhfox',
+ 'vmhrizxtiegxdxsqcdoiyxkffloudwtxg',
+ 'tffjnabob_jbf_qiszdsemczghnjysmah',
+ 'zrqkppvynlkelnevngwlkhgaputhoagtt',
+ 'nl_oojyafwoqccbedijmigpedkdzglq_f',
+ 'cksy_skctjlyxktuzchvstunyvcvabomc',
+ 'ppcxleeguvhvhengmvac_bykhzqohjuei',
+ '_clmaicjrrzhwd_fescyaejtbyefxyihy',
+ 'hhopvwsmjtpjiffzatyhjrev_dwnsidyo',
+ 'sjevtrmkkk_zjalxrxfovjsbcxjx_pskp',
+ 'gnynwuuqypddbsylparpcczqimimqmvdl',
+ 'bxitcmhnmanwuhvjxnqeoiimlegrmkjra']
+
+r = [
+'ufdmkoeixwrqjlavtzncp_hsgb',
+'u_sdvywztaqgebimfrlkpchjnx',
+'dnampkxjbtzgrvwhfq_scloeyi',
+'cefqsgbwiahdzlurjkoyxmpvnt',
+'jgqsbmxefrdzhyuinpo_lavtwc',
+'kcq_dfovbtgxlyhzapjseiwrum',
+'lqwtdagj_ifpnrzxbvykecsmuh',
+'lexfd_izvphrsubtoyacgjmkqn',
+'pvaxqchozldwegsibnfturjkym',
+'uyqbcmhosxnigfze_lwjvrtkpa',
+'qxtwyrmuiabscfvgjkolhzp_dn',
+'nmsiuoktl_pragfxbeqyvhjzdw',
+'gatszynevkm_qrpdflcxhwijbu',
+'qugprbjlytovzwix_nckedfash',
+'wuhrgxcijzmkaodsqebtn_flyv',
+'bhrcdspomnakt_wqiveugfzxlj',
+'utfjogbqy_kihvwcsndzmearpx',
+'jhbumwyrqolpf_kdzgicvstxan',
+'nixtvkmbsuegpzlodwjhacyfrq',
+'bjzkntdgxwqfur_islmvcyhope',
+'hbprmlxgdzftuqwyekis_ajvco',
+'ow_slzqaknpufvyxmhgtberjci',
+'bhxoafltrdmvwqnkcgpuyjeszi',
+'op_gyijwrcxhuslfzaenktvbqm',
+'wjxamtvkqresnzufgpdyhb_cil',
+'pborngsqwftiacjlhukvzydxme',
+'xv_mlasfyupzkhbontdcqewjig',
+'_akibgpcytwldqsujhzvofnxmr',
+'klzjewnuifpctrbdyogahxs_qm',
+'dnqtgxvzufo_crhwsalbjyipmk',
+'khxcnazw_ybpelftmgqouidsvj',
+'pncluwfivzgbqjoxat_mehykdr',
+'_mksruvnbdjzwqxghtfciyopla']
+
+for a in r:
+    for c in 'abcdefghijklmnopqrstuvwxyz_':
+        if c not in a:
+            print c,
+
+# 'you_know_decompyle_and_do_reverse'

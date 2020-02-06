@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Thu Jan  2 00:22:39 2020
+Invocation: foremost cat.png 
+Output directory: /home/ubuntu/Desktop/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: cat.png
+Start: Thu Jan  2 00:22:39 2020
+Length: 729 KB (747373 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     362 KB 	          0 	  (739 x 554)
+1:	00000725.png 	     367 KB 	     371382 	  (739 x 554)
+Finish: Thu Jan  2 00:22:39 2020
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Thu Jan  2 00:22:39 2020
